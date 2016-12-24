@@ -1,4 +1,4 @@
-# blog
+# vue-markdown-editor
 
 > Nuxt.js project
 
@@ -18,5 +18,9 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
+
+## dependencies
+
+markdown parse powered by [marked.js](https://github.com/chjj/marked)
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
