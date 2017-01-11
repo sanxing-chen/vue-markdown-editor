@@ -11,6 +11,7 @@
     var _ = require('lodash'),
         marked = require('marked');
     export default {
+        layout: 'app',
         data() {
             return {
                 message: '# Hello Vue.js \n Using by the full-featured __markdown__ parser and compiler [marked](https://github.com/chjj/marked). \n\n *** \n\trequire(\'highlight.js\')\n\tconsole.log(\'try something here\')\n'
