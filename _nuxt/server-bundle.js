@@ -1477,7 +1477,7 @@ var layouts = {
 };
 
 /* harmony default export */ exports["default"] = {
-  head: { "title": "Markdown Editor", "meta": [{ "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1, maximum-scale=1" }, { "hid": "description", "content": "Nuxt.js project" }], "link": [{ "rel": "icon", "type": "image/x-icon", "href": "favicon.ico" }] },
+  head: { "title": "Markdown Editor", "meta": [{ "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" }, { "hid": "description", "content": "Nuxt.js project" }], "link": [{ "rel": "icon", "type": "image/x-icon", "href": "favicon.ico" }] },
   data: function data() {
     return {
       layout: null,
@@ -3494,7 +3494,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "editor"
     }
-  }, [_c('textarea', {
+  }, [_c('div', {
+    attrs: {
+      "id": "cmark"
+    },
+    domProps: {
+      "innerHTML": _vm._s(_vm.compiledMarkdown)
+    }
+  }), _c('textarea', {
     attrs: {
       "rows": "40"
     },
@@ -3508,10 +3515,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         $event.preventDefault();
         _vm.addtab($event)
       }
-    }
-  }), _c('div', {
-    domProps: {
-      "innerHTML": _vm._s(_vm.compiledMarkdown)
     }
   })])])
 },staticRenderFns: []}
