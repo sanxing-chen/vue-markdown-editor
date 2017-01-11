@@ -64,7 +64,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "/_nuxt/";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 33);
+/******/ 	return __webpack_require__(__webpack_require__.s = 34);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -137,7 +137,7 @@ var listenersKeys = ['beforeEnter', 'enter', 'afterEnter', 'enterCancelled', 'be
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_meta__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_meta__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_meta___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vue_meta__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__router_js__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_nuxt_container_vue__ = __webpack_require__(16);
@@ -146,8 +146,8 @@ var listenersKeys = ['beforeEnter', 'enter', 'afterEnter', 'enterCancelled', 'be
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_nuxt_link_js__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_nuxt_vue__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_nuxt_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_nuxt_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__home_localadmin_starter_template_layouts_app_vue__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__home_localadmin_starter_template_layouts_app_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__home_localadmin_starter_template_layouts_app_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_C_Users_STay_Documents_nuxt_vue_markdown_editor_layouts_app_vue__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_C_Users_STay_Documents_nuxt_vue_markdown_editor_layouts_app_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_C_Users_STay_Documents_nuxt_vue_markdown_editor_layouts_app_vue__);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__router_js__["a"]; });
 /* harmony export (binding) */ __webpack_require__.d(exports, "a", function() { return app; });
 
@@ -228,7 +228,7 @@ var app = _extends({
       return err;
     }
   }
-}, __WEBPACK_IMPORTED_MODULE_7__home_localadmin_starter_template_layouts_app_vue___default.a);
+}, __WEBPACK_IMPORTED_MODULE_7_C_Users_STay_Documents_nuxt_vue_markdown_editor_layouts_app_vue___default.a);
 
 
 
@@ -611,7 +611,7 @@ module.exports = require("querystring");
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_vue_router__);
 
 
@@ -620,8 +620,8 @@ module.exports = require("querystring");
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_router___default.a);
 
-var _48f06d7e =  false ? function () {
-  return System.import('/home/localadmin/starter/template/pages/index.vue');
+var _20b7ea03 =  false ? function () {
+  return System.import('C:\\Users\\STay\\Documents\\nuxt\\vue-markdown-editor\\pages\\index.vue');
 } : __webpack_require__(22);
 
 var scrollBehavior = function scrollBehavior(to, from, savedPosition) {
@@ -649,7 +649,7 @@ var scrollBehavior = function scrollBehavior(to, from, savedPosition) {
   scrollBehavior: scrollBehavior,
   routes: [{
     path: "/",
-    component: _48f06d7e,
+    component: _20b7ea03,
     name: "index"
   }]
 });
@@ -669,7 +669,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 
 /* harmony default export */ exports["default"] = {
   name: 'nuxt-container',
-  head: { "title": "starter", "meta": [{ "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "hid": "description", "content": "Nuxt.js project" }], "link": [{ "rel": "icon", "type": "image/x-icon", "href": "favicon.ico" }] }
+  head: { "title": "Markdown Editor", "meta": [{ "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1, maximum-scale=1" }, { "hid": "description", "content": "Nuxt.js project" }], "link": [{ "rel": "icon", "type": "image/x-icon", "href": "favicon.ico" }] }
 };
 
 /***/ },
@@ -782,8 +782,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__nuxt_child__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_localadmin_starter_template_layouts_error_vue__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_localadmin_starter_template_layouts_error_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__home_localadmin_starter_template_layouts_error_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_C_Users_STay_Documents_nuxt_vue_markdown_editor_layouts_error_vue__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_C_Users_STay_Documents_nuxt_vue_markdown_editor_layouts_error_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_C_Users_STay_Documents_nuxt_vue_markdown_editor_layouts_error_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nuxt_loading_vue__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nuxt_loading_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__nuxt_loading_vue__);
 //
@@ -835,7 +835,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 
   components: {
     NuxtChild: __WEBPACK_IMPORTED_MODULE_1__nuxt_child__["a" /* default */],
-    NuxtError: __WEBPACK_IMPORTED_MODULE_2__home_localadmin_starter_template_layouts_error_vue___default.a,
+    NuxtError: __WEBPACK_IMPORTED_MODULE_2_C_Users_STay_Documents_nuxt_vue_markdown_editor_layouts_error_vue___default.a,
     NuxtLoading: __WEBPACK_IMPORTED_MODULE_3__nuxt_loading_vue___default.a
   }
 };
@@ -884,8 +884,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 /* harmony default export */ exports["default"] = {
   props: ['error']
@@ -906,31 +904,40 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //
 //
 //
-//
 
 var _ = __webpack_require__(1),
-    marked = __webpack_require__(30);
+    marked = __webpack_require__(31);
 /* harmony default export */ exports["default"] = {
     data: function data() {
         return {
-            message: '# Hello Vue.js \n Using by the full-featured __markdown__ parser and compiler [marked](https://github.com/chjj/marked).'
+            message: '# Hello Vue.js \n Using by the full-featured __markdown__ parser and compiler [marked](https://github.com/chjj/marked). \n\n *** \n\trequire(\'highlight.js\')\n\tconsole.log(\'try something here\')\n'
         };
     },
 
     computed: {
         compiledMarkdown: function compiledMarkdown() {
             return marked(this.message, {
-                sanitize: true
+                sanitize: true,
+                highlight: function highlight(code) {
+                    return __webpack_require__(30).highlightAuto(code).value;
+                }
             });
         }
     },
     methods: {
-        reverseMessage: function reverseMessage() {
-            this.message = this.message.split('').reverse().join('');
-        },
         update: _.debounce(function (e) {
             this.message = e.target.value;
-        }, 300)
+        }, 200),
+        addtab: function addtab(e) {
+            var str = e.target.value,
+                start = e.target.selectionStart,
+                sel = window.getSelection();
+            this.message = str.substr(0, start) + "\t" + str.substr(start);
+            setTimeout(function () {
+                e.target.selectionStart = e.target.selectionEnd = start + 1;
+            }, 100);
+            e.preventDefault();
+        }
     }
 };
 
@@ -953,7 +960,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(9)
 
 /* template */
-var __vue_template__ = __webpack_require__(28)
+var __vue_template__ = __webpack_require__(25)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -965,7 +972,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/home/localadmin/starter/template/.nuxt/components/nuxt-container.vue"
+__vue_options__.__file = "C:\\Users\\STay\\Documents\\nuxt\\vue-markdown-editor\\.nuxt\\components\\nuxt-container.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 if (__vue_options__.functional) {console.error("[vue-loader] nuxt-container.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -986,7 +993,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(10)
 
 /* template */
-var __vue_template__ = __webpack_require__(24)
+var __vue_template__ = __webpack_require__(26)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -998,10 +1005,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/home/localadmin/starter/template/.nuxt/components/nuxt-loading.vue"
+__vue_options__.__file = "C:\\Users\\STay\\Documents\\nuxt\\vue-markdown-editor\\.nuxt\\components\\nuxt-loading.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-297ace38"
+__vue_options__._scopeId = "data-v-52c3d7d0"
 if (__vue_options__.functional) {console.error("[vue-loader] nuxt-loading.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
@@ -1030,7 +1037,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/home/localadmin/starter/template/.nuxt/components/nuxt.vue"
+__vue_options__.__file = "C:\\Users\\STay\\Documents\\nuxt\\vue-markdown-editor\\.nuxt\\components\\nuxt.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 if (__vue_options__.functional) {console.error("[vue-loader] nuxt.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -1046,7 +1053,7 @@ var __vue_exports__, __vue_options__
 var __vue_styles__ = {}
 
 /* template */
-var __vue_template__ = __webpack_require__(23)
+var __vue_template__ = __webpack_require__(24)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -1058,7 +1065,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/home/localadmin/starter/template/components/Footer.vue"
+__vue_options__.__file = "C:\\Users\\STay\\Documents\\nuxt\\vue-markdown-editor\\components\\Footer.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 if (__vue_options__.functional) {console.error("[vue-loader] Footer.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -1079,7 +1086,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(12)
 
 /* template */
-var __vue_template__ = __webpack_require__(29)
+var __vue_template__ = __webpack_require__(23)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -1091,7 +1098,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/home/localadmin/starter/template/layouts/app.vue"
+__vue_options__.__file = "C:\\Users\\STay\\Documents\\nuxt\\vue-markdown-editor\\layouts\\app.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 if (__vue_options__.functional) {console.error("[vue-loader] app.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -1112,7 +1119,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(13)
 
 /* template */
-var __vue_template__ = __webpack_require__(26)
+var __vue_template__ = __webpack_require__(28)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -1124,10 +1131,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/home/localadmin/starter/template/layouts/error.vue"
+__vue_options__.__file = "C:\\Users\\STay\\Documents\\nuxt\\vue-markdown-editor\\layouts\\error.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-5e9fa879"
+__vue_options__._scopeId = "data-v-65624780"
 if (__vue_options__.functional) {console.error("[vue-loader] error.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
@@ -1146,7 +1153,7 @@ var __vue_styles__ = {}
 __vue_exports__ = __webpack_require__(14)
 
 /* template */
-var __vue_template__ = __webpack_require__(25)
+var __vue_template__ = __webpack_require__(29)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -1158,10 +1165,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/home/localadmin/starter/template/pages/index.vue"
+__vue_options__.__file = "C:\\Users\\STay\\Documents\\nuxt\\vue-markdown-editor\\pages\\index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-48f06d7e"
+__vue_options__._scopeId = "data-v-71ebe645"
 if (__vue_options__.functional) {console.error("[vue-loader] index.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 module.exports = __vue_exports__
@@ -1171,28 +1178,49 @@ module.exports = __vue_exports__
 /* 23 */
 /***/ function(module, exports) {
 
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('footer', [_vm._v("\n  Powered by "), _c('a', {
-    attrs: {
-      "href": "https://nuxtjs.org",
-      "target": "_blank"
-    }
-  }, [_vm._v("nuxtjs.org")]), _vm._v(", made by "), _c('a', {
-    attrs: {
-      "href": "https://sxing,xyz",
-      "target": "_blank"
-    }
-  }, [_vm._v("STay")])])
-}]}
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+  return _c('nuxt-container', [_c('nuxt'), _c('my-footer')])
+},staticRenderFns: []}
 module.exports.render._withStripped = true
 
 /***/ },
 /* 24 */
 /***/ function(module, exports) {
 
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+  return _vm._m(0)
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+  return _c('footer', [_vm._v("\n  Powered by "), _c('a', {
+    attrs: {
+      "href": "https://nuxtjs.org",
+      "target": "_blank"
+    }
+  }, [_vm._v("Nuxt")]), _vm._v("| "), _c('a', {
+    attrs: {
+      "href": "https://sxing.xyz"
+    }
+  }, [_vm._v("STay")])])
+}]}
+module.exports.render._withStripped = true
+
+/***/ },
+/* 25 */
+/***/ function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+  return _c('div', {
+    attrs: {
+      "id": "__nuxt"
+    }
+  }, [_vm._t("default")], true)
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+
+/***/ },
+/* 26 */
+/***/ function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
   return _c('div', {
     staticClass: "progress",
     style: ({
@@ -1206,43 +1234,25 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports.render._withStripped = true
 
 /***/ },
-/* 25 */
+/* 27 */
 /***/ function(module, exports) {
 
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('section', {
-    staticClass: "container"
-  }, [_c('h1', {
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+  return _c('div', [_c('nuxt-loading', {
+    ref: "loading"
+  }), (!_vm.nuxt.err) ? _c('nuxt-child') : _vm._e(), (_vm.nuxt.err) ? _c('nuxt-error', {
     attrs: {
-      "id": "eHeader"
+      "error": _vm.nuxt.err
     }
-  }, [_vm._v(" Markdown Editor ")]), _c('div', {
-    attrs: {
-      "id": "editor"
-    }
-  }, [_c('textarea', {
-    attrs: {
-      "rows": "40"
-    },
-    domProps: {
-      "value": _vm.message
-    },
-    on: {
-      "input": _vm.update
-    }
-  }), _c('div', {
-    domProps: {
-      "innerHTML": _vm._s(_vm.compiledMarkdown)
-    }
-  })])])
+  }) : _vm._e()])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
 /***/ },
-/* 26 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
   return _c('section', {
     staticClass: "container"
   }, [_c('img', {
@@ -1264,39 +1274,40 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports.render._withStripped = true
 
 /***/ },
-/* 27 */
-/***/ function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('nuxt-loading', {
-    ref: "loading"
-  }), (!_vm.nuxt.err) ? _c('nuxt-child') : _vm._e(), (_vm.nuxt.err) ? _c('nuxt-error', {
-    attrs: {
-      "error": _vm.nuxt.err
-    }
-  }) : _vm._e()])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ },
-/* 28 */
-/***/ function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    attrs: {
-      "id": "__nuxt"
-    }
-  }, [_vm._t("default")], true)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ },
 /* 29 */
 /***/ function(module, exports) {
 
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('nuxt-container', [_c('nuxt'), _c('my-footer')])
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+  return _c('section', {
+    staticClass: "container"
+  }, [_c('h1', {
+    attrs: {
+      "id": "eHeader"
+    }
+  }, [_vm._v(" Markdown Editor ")]), _c('div', {
+    attrs: {
+      "id": "editor"
+    }
+  }, [_c('textarea', {
+    attrs: {
+      "rows": "40"
+    },
+    domProps: {
+      "value": _vm.message
+    },
+    on: {
+      "input": _vm.update,
+      "keydown": function($event) {
+        if (_vm._k($event.keyCode, "tab", 9)) { return; }
+        $event.preventDefault();
+        _vm.addtab($event)
+      }
+    }
+  }), _c('div', {
+    domProps: {
+      "innerHTML": _vm._s(_vm.compiledMarkdown)
+    }
+  })])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
@@ -1304,22 +1315,28 @@ module.exports.render._withStripped = true
 /* 30 */
 /***/ function(module, exports) {
 
-module.exports = require("marked");
+module.exports = require("highlight.js");
 
 /***/ },
 /* 31 */
 /***/ function(module, exports) {
 
-module.exports = require("vue-meta");
+module.exports = require("marked");
 
 /***/ },
 /* 32 */
 /***/ function(module, exports) {
 
-module.exports = require("vue-router");
+module.exports = require("vue-meta");
 
 /***/ },
 /* 33 */
+/***/ function(module, exports) {
+
+module.exports = require("vue-router");
+
+/***/ },
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1401,20 +1418,14 @@ var _app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MO
       return Component;
     });
     // Call .validate()
-    var isValid = true;
-    Components.forEach(function (Component) {
-      if (!isValid) return;
-      if (typeof Component.options.validate !== 'function') return;
-      isValid = Component.options.validate({
+    var isValid = Components.some(function (Component) {
+      if (typeof Component.options.validate !== 'function') return true;
+      return Component.options.validate({
         params: context.route.params || {},
         query: context.route.query || {}
       });
     });
     if (!isValid) {
-      // Don't server-render the page in generate mode
-      if (context._generate) {
-        context.nuxt.serverRendered = false;
-      }
       // Call the 404 error by making the Components array empty
       Components = [];
       return _app;
@@ -1456,9 +1467,6 @@ var _app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MO
 
     return _app;
   }).catch(function (error) {
-    if (error && error instanceof Error) {
-      error = { statusCode: 500, message: error.message };
-    }
     context.nuxt.error = context.error(error);
 
     return _app;
