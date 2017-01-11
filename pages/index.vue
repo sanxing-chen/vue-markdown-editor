@@ -2,8 +2,8 @@
     <section class="container">
         <h1 id="eHeader"> Markdown Editor </h1>
         <div id="editor">
+            <div id="cmark" v-html="compiledMarkdown"></div>
             <textarea rows="40" :value="message" @input="update" @keydown.tab.prevent="addtab"></textarea>
-            <div v-html="compiledMarkdown"></div>
         </div>
     </section>
 </template>
@@ -57,26 +57,50 @@
         background-color: #f3f5f6;
     }
     
-    textarea,
-    #editor div {
-        display: inline-block;
-        width: 49%;
-        height: 100%;
-        vertical-align: top;
-        box-sizing: border-box;
-        padding: 0 20px;
+    @media (min-width: 601px) {
+        textarea,
+        #editor div {
+            display: inline-block;
+            width: 49%;
+            height: 100%;
+            vertical-align: top;
+            box-sizing: border-box;
+            padding: 0 20px;
+        }
+        textarea {
+            tab-size: 4;
+            border: none;
+            border-left: 1px dashed #ccc;
+            resize: none;
+            outline: none;
+            background-color: #f6f6f6;
+            font-size: 14px;
+            font-family: 'Monaco', courier, monospace;
+            padding: 20px;
+        }
     }
     
-    textarea {
-        tab-size: 4;
-        border: none;
-        border-right: 1px solid #ccc;
-        resize: none;
-        outline: none;
-        background-color: #f6f6f6;
-        font-size: 14px;
-        font-family: 'Monaco', courier, monospace;
-        padding: 20px;
+    @media (max-width: 600px) {
+        textarea {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            height: 17em;
+            overflow: auto;
+            padding: 6px;
+            padding-top: 1em;
+            tab-size: 4;
+            border: none;
+            border-top: 1px dashed #ccc;
+            resize: none;
+            outline: none;
+            font-family: 'Monaco', courier, monospace;
+            background-color: #f6f6f6;
+        }
+        #editor #cmark {
+            display: block;
+            padding: 3px;
+        }
     }
     
     code {

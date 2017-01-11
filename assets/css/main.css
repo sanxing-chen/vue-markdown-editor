@@ -35,6 +35,10 @@ a, a:hover, a:focus, a:visited
 }
 
 /* hljs */
+code {
+  display: block;
+  overflow: auto;
+}
 .hljs {
   display: block;
   overflow-x: auto;
